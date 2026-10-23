@@ -19,5 +19,7 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
                 return 0 // invalid spell
             }
         }
-    }
+    } // end
+
+    fun restoreMana(amount: Int) { }
 }
